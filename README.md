@@ -1,1 +1,1 @@
-# ZamaraWebApp
+# KazriWebApp
