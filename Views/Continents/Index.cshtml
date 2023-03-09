@@ -1,0 +1,21 @@
+﻿@model List<Continent>
+
+<h1>CONTINENTS</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Code</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var continent in Model)
+        {
+            <tr>
+                <td>@continent.Code</td>
+                <td>@continent.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,43 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 100px;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height:100px;
+}
+
+.btn:focus{
+    outline:none;
+}
+ul{
+    list-style:circle;
+    
+}
+li{
+    padding-top:0px;
+}
+.content {
+    flex: 1;
+    /*overflow-y: auto;*/
+}
