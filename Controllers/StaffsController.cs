@@ -217,8 +217,8 @@ namespace ZamaraWebApp.Controllers
 		{
             try
             {
-				string fromMail = "yegojs200@gmail.com";
-				string fromPassword = "zrmevgfolydfgmss";
+				string fromMail = "test@example.com";
+				string fromPassword = "zrmegtyuhjtds";
 				MailMessage message = new MailMessage();
 				message.From = new MailAddress(fromMail, "Staff Alert");
 				message.Subject = subject;
